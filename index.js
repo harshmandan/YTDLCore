@@ -44,8 +44,8 @@ app.use(function(req, res, next) {
   res.status(404).send({code:404, status:"error"});
 });
 
-server.listen(3030, () => {
-  console.log(`Server is listening on port: 3030`);
+server.listen(5000, () => {
+  console.log(`Server is listening on port: 5000`);
 });
 
  
