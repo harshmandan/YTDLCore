@@ -26,14 +26,6 @@ app.disable('etag');
 app.use(cors());
 app.options('*', cors()) // include before other routes
 
-//Session secret key
-app.use(session({
-  store: new RedisStore({ client: client , ttl: 259200, disableTouch: false}),
-  secret:'my_sVpEr-$3cr3t_k3y',
-  resave: true,
-  saveUninitialized: true
-}));
-
 
 //View engine setup
 app.set('views', path.join(__dirname, 'views'));
