@@ -42,7 +42,7 @@
     "redis": "^3.0.2",
     "req-flash": "0.0.3",
     "request": "^2.87.0",
-    "requestretry": "^4.0.0",
+    "requestretry": "^7.0.0",
     "shelljs": "^0.8.3",
     "socket.io": "^2.3.0",
     "socket.io-pm2": "^1.0.0",
